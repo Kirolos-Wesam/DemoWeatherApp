@@ -12,10 +12,9 @@ First, i followed a MVC architecture pattern and organized the codebase into lay
 
 ![on boardscreen](https://github.com/Kirolos-Wesam/DemoWeatherApp/assets/57256483/927a8201-4eeb-464f-874b-da8b2a0eaae5)
 
+When you open the application for the first time, the screen on the panel appears and after clicking (Get Started), you will move to the next screen (Home Screen) and save the data if you opened the application before.
 
-When you open app first time that show the on board screen and after click (Get Started) you will go next Screen (Home Screen) and save data of you opened app before.
-
-Here I use an get Storage package to save the local data into device, so when open app Again you don't see this screen again.
+Here I'm using the get Storage package to save local data to the device, so when you open the app again, you don't see this screen again.
 
 # Home Screen 
 
@@ -27,7 +26,7 @@ So, I used the GeoLocator package to obtain the latitude and longitude of your l
 
 ![Home Screen](https://github.com/Kirolos-Wesam/DemoWeatherApp/assets/57256483/8ee79217-a0bc-4e7f-a147-335335dd4884)
 
-After got your Latitude and Longitude, now this coordinates numbers connect to the OpenWeather Api by Dio Package and get the response data, so that role of the Getx State Management do.
+After getting the latitude and longitude, these coordinate numbers are now connected to the OpenWeather Api by Dio Package and get the response data, so that Getx State Management does this.
 
 Got the response data and insert into the variable of model to show the data into the user.
 
